@@ -1,0 +1,55 @@
+body
+{
+	background: rgb(144,245,233);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(240, 204, 85);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        border-style: ridge;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: rgb(112, 235, 128);
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h1{
+    color: darkred;
+	font-weight: bolder;
+}
+iframe{
+	width: 250px;
+	height: 250px;
+	border-style: ridge;
+	border-color: rgb(104,93,237);
+	border-width: 10px;
+}
+#log_on{
+	background: rgb(101,93,231);
+    background: linear-gradient(225deg, rgba(101,93,231,1) 0%, rgba(228,111,226,1) 35%, rgba(232,231,114,1) 100%);
+}
+#p1_name,#p2_name,#p1_score,#p2_score{
+	margin-left: 40px;
+}
